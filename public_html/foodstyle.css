@@ -1,0 +1,67 @@
+body {
+    background-color: #faf6f2;
+}
+
+body a{
+    color: #333;
+    text-decoration: none;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+header h1 span {
+    color: #936639;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+    width: auto;
+}
+
+.food .chococheese, .blueberry, .bun {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 2px solid rgba(51, 51, 51, 0.1);
+    margin: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.food .chococheese img, .blueberry img, .bun img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.food .chococheese .desc, .blueberry .desc, .bun .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+}
+
+footer {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}

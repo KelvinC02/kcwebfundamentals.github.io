@@ -1,0 +1,65 @@
+body {
+    background-color: #faf6f2;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+header h1 a {
+    text-decoration: none;
+}
+
+header h1 span {
+    color: #936639;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+}
+.box .userinfo form {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+}
+
+.box {
+    border: 2px solid;
+    border-width: fit-content;
+    margin: 50px 20px 170px 20px;
+    padding: 10px;
+    background-color: #ede0d4;
+    min-width: 300px;
+}
+
+.box .userinfo h3 {
+    grid-column-start: 1;
+    grid-column-end:2;
+    text-align: center;
+}
+
+.box .userinfo input {
+    height: 30px;
+    margin-top: 12px;
+}
+
+.box h3 {
+    margin-top: 20px;
+    text-align: center;
+}

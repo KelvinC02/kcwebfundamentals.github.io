@@ -1,0 +1,54 @@
+body {
+    background-color: #faf6f2;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+header h1 a {
+    text-decoration: none;
+}
+
+header h1 span {
+    color: #936639;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+    width: auto;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .story h3, .mission h3 {
+    text-align: center;
+    padding: 30px;
+    border-style: dashed;
+    background-color: #e6ccb2;
+}
+
+.story p, .mission p {
+    padding: 50px;
+}

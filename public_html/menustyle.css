@@ -1,0 +1,197 @@
+body {
+    background-color: #faf6f2;
+}
+
+body a{
+    color: #333;
+    text-decoration: none;
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+header h1 span {
+    color: #936639;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    background-color: #e6ccb2;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.menu .menu1 {
+    margin: 10px 10px 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+}
+
+.cne, .tnc, .fnb {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.cne .espresso, .latte, .cappucino {
+    border: 2px solid rgba(51, 51, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.cne .espresso {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.cne .espresso a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cne .latte {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.cne .latte a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cne .cappucino {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.cne .cappucino a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tnc .chocolate, .tealatte, .lemon {
+    border: 2px solid rgba(51, 51, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tnc .chocolate a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tnc .tealatte a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tnc .lemon a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fnb .chocofrap, .greenteafrap, .esprefrap, .fruitjuice {
+    border: 2px solid rgba(51, 51, 51, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.fnb .chocofrap {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.fnb .chocofrap a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fnb .greenteafrap {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.fnb .greenteafrap a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fnb .esprefrap {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.fnb .esprefrap a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fnb .fruitjuice {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.fnb .fruitjuice a img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,56 @@
+body {
+    background-color: #faf6f2;
+}
+
+header .nav h1{
+    text-align: center;
+    font-size: 50px;
+}
+header .nav h1 a {
+    text-decoration: none;
+}
+
+header .nav h1 span {
+    color: #936639;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    color: #333;
+    font-weight: 400;
+    text-decoration: none;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    overflow: auto;
+    width: auto;
+}
+
+header .title {
+    text-align: center;
+    border-style: dotted;
+    background-color: #e6ccb2;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+body div {
+    margin: 40px 20px;
+}
+
+body div p {
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+footer {
+    position: relative;
+    bottom: 2%;
+}

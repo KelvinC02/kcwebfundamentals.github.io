@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ShareUsACoffee@Menu</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="menustyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="menu.js"></script>
+    </head>
+    <body>
+        <section>
+            <header>
+                <h1><a href="index.html"><span>ShareUsACoffee</span></a></h1>
+                <hr>
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="membership.html">Rewards</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+                <hr>
+            </header>
+            <br>
+            <div class="menu">
+                <div class="menu1">
+                    <h3>Menu</h3>
+                </div>
+                    <h3 style="margin:25px 0px;"><input type="search" id="item" placeholder="Search for an item" name="search"></h3>
+                    <h3 style="margin:25px 0px ;"><button onclick="itemSearch()">Search</button></h3>
+            </div>
+            <br><br>
+            <h3>Coffee & Espresso</h3>
+            <hr><br>
+            <div class="cne">
+                <div class ="espresso">
+                    <a href="#">
+                        <img src="espresso.png" width="400" height="350" onclick="openImg(this)">
+                    </a>
+                    <h4>ESPRESSO</h4>
+                </div>
+                <div class="latte">
+                    <a href="#">
+                        <img src="latte.png" width="200" height="200" onclick="openImg(this)">
+                    </a>
+                    <h4>LATTE</h4>
+                </div>
+                <div class="cappucino">
+                    <a href="#">
+                        <img src="cappucino.png" width="200" height="200" onclick="openImg(this)">
+                    </a>
+                    <h4>CAPPUCINO</h4>
+                </div>
+            </div>
+            <br><br>
+            <h3>Tea & Chocolate</h3>
+            <hr><br>
+            <div class="tnc">
+                <div class="chocolate">
+                    <a href="#">
+                        <img src="chocolate.png" width="200" height="200" onclick="openImg(this)">
+                    </a>
+                    <h4>CHOCOLATE</h4>
+                </div>
+                <div class="tealatte">
+                    <a href="#">
+                        <img src="tea.png" width="200" height="200" onclick="openImg(this)">  
+                    </a>
+                    <h4>TEA LATTE</h4>
+                </div>
+                <div class="lemon">    
+                    <a href="#">
+                        <img src="lemon.png" width="200" height="200" onclick="openImg(this)">
+                    </a>
+                    <h4>LEMON TEA</h4>
+                </div>
+            </div>
+            <br><br>
+            <h3>Frappucino and Blended</h3>
+            <hr><br>
+            <div class="fnb">
+                <div class="chocofrap">
+                    <a href="#">
+                        <img src="chocofrap.png" width="150" height="160" onclick="openImg(this)">
+                    </a>
+                    <h4 style="font-size: 10px;">CHOCOLATE FRAPPUCINO</h4>
+                </div>  
+                <div class="greenteafrap">
+                    <a href="#">
+                        <img src="teafrap.png" width="150" height="160" onclick="openImg(this)">
+                        </a>
+                    <h4 style="font-size: 10px;">GREEN TEA FRAPPUCINO</h4>
+                </div>
+                <div class="esprefrap">
+                    <a href="#">
+                        <img src="espresfrap.png" width="150" height="160" onclick="openImg(this)">
+                    </a>
+                    <h4 style="font-size: 10px;">ESPRESSO FRAPPUCINO</h4>
+                </div>
+                <div class="fruitjuice">
+                    <a href="#">
+                        <img src="fruit.png" width="150" height="160" onclick="openImg(this)">
+                    </a>
+                    <h4 style="font-size: 10px;">FRUIT BLENDED JUICE</h4>
+                </div>
+            </div>
+            <br><br>
+            <footer>
+                <hr>
+                &copy; All rights reserved by ShareUsACoffee
+            </footer>
+        </section>
+    </body>
+</html>
